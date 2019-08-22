@@ -1,9 +1,10 @@
 import React from 'react'
 export class DropdownMenu extends React.Component {
     render() {
+        var {category} = this.props;
         return (
             <li>
-                <span>Products</span>
+                <span>{category.categoryName}<i className="fal fa-chevron-down ml-1"></i></span>
                 <div className="menu_level_1">
                     <ul>
                         <li>About us</li>

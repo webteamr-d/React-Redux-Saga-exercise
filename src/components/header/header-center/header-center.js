@@ -18,7 +18,7 @@ export class HeaderCenter extends React.Component {
                                     <option value="1">Children</option>
                                 </select>
                                 <button className="search_button">
-                                    <i class="fal fa-search cw"></i>
+                                    <i className="fal fa-search cw"></i>
                                 </button>
                             </form>
                         </div>

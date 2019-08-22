@@ -10,21 +10,21 @@ export class SidebarFilter extends React.Component {
                     </div>
                     <div className="filter_content">
                         <ul>
-                            <li>
+                            <li onClick={()=>{console.log("Clicked")}}>
                                 <span>Woman</span>
-                                <button><i class="fal fa-chevron-down"></i></button>
+                                <button><i className="fal fa-chevron-down"></i></button>
                             </li>
                             <li>
                                 <span>Jewellery</span>
-                                <button><i class="fal fa-chevron-down"></i></button>
+                                <button><i className="fal fa-chevron-down"></i></button>
                             </li>
                             <li>
                                 <span>Men</span>
-                                <button><i class="fal fa-chevron-down"></i></button>
+                                <button><i className="fal fa-chevron-down"></i></button>
                             </li>
                             <li>
                                 <span>Kids Fashion</span>
-                                <button><i class="fal fa-chevron-down"></i></button>
+                                <button><i className="fal fa-chevron-down"></i></button>
                             </li>
                         </ul>
                     </div>

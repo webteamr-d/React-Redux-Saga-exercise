@@ -4,7 +4,13 @@ import './content.css'
 import Product from './product/product'
 import SidebarFilter from './sidebar-filter/sidebar-filter'
 export class Content extends React.Component {
+
     render() {
+        var {products} = this.props;
+        var product = products.map((product, index) => {
+            return <Product product={product} key={index}/>
+        })
+        
         return (
             <div className="content">
                 <div className="container">
@@ -19,11 +25,7 @@ export class Content extends React.Component {
 
                             <div className="products">
                                 <div className="row">
-                                    <Product />
-                                    <Product />
-                                    <Product />
-                                    <Product />
-                                    <Product />
+                                    {product}
                                 </div>
                             </div>
                         </div>

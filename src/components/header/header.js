@@ -5,12 +5,13 @@ import HeaderCenter from './header-center/header-center'
 import HeaderBottom from './header-bottom/header-bottom'
 export class Header extends React.Component {
     render() {
+        var {categories} = this.props;
         return (
             <div>
                 <div className="desktop">
                     <HeaderTop />
                     <HeaderCenter />
-                    <HeaderBottom />
+                    <HeaderBottom categories={categories}/>
                 </div>
 
                 <div className="mobile">
