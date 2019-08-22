@@ -1,0 +1,8 @@
+.sidebar_filter .filter_option .filter_content ul li{
+    align-items: center;
+    padding: 5px 0;
+}
+
+.sidebar_filter .filter_option .filter_content ul li button{
+    float: right;
+}

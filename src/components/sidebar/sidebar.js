@@ -25,12 +25,6 @@ export class Sidebar extends React.Component {
                     <div className="sidebar_menu">
                         <ul>
                             <li>Home</li>
-                            {/* <li><a href="">Home</a></li>
-                            <li><a href="">Categories</a></li>
-                            <li><a href="">Products</a></li>
-                            <li><a href="">Pages</a></li>
-                            <li><a href="">Features</a></li>
-                            <li><a href="">Special Offer!</a></li> */}
                         </ul>
                     </div>
                 </div>

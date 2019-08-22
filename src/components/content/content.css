@@ -3,8 +3,10 @@
 }
 
 .content .sidebar_filter{
-    border: solid 1px #ddd;
+    /* border: solid 1px #ddd; */
     padding: 30px 20px;
+    border-top: solid 2px #1FC0A0;
+    box-shadow: 0 2px 3px -1px rgba(0,0,0,.1);
 }
 
 .content .sidebar_filter .filter_option:not(:last-child){
